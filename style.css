@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    display: flex;
+    gap: 90px;
+    margin-top: 100px;
+}
+.Product{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: block;
+    text-align: center;
+    margin-left: 150px;
+    box-shadow: 5px 10px 10px;
+}
+.Product img{
+    width: 200px;
+}
+.par1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.par2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 17px;
+}
+.me{
+    width: 300px;
+    height: 55px;
+    border: none;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    background-color: #FFB42E;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.me:active{
+    background-color: gray;
+    color: #03BFCB;
+}
+.Product1{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: block;
+    text-align: center;
+    box-shadow: 5px 10px 10px;
+}
+.Product1 img{
+    width: 200px;
+    height: 200px;
+}
+.par3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.par4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 17px;
+}
+.me1{
+    width: 300px;
+    height: 55px;
+    border: none;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    background-color: #FFB42E;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.me1:active{
+    background-color: gray;
+    color: #03BFCB;
+}
+@media screen and (max-width: 850px) {
+    main{
+        display: block;
+    }
+    .Product{
+        margin-left: -1px;
+
+    }
+    .Product1{
+        margin-top: 90px;
+    }
+    
+}
